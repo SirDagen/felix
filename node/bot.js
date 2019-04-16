@@ -281,7 +281,7 @@ return bot
         }
 
         // felix' coin toss -> "felix should I call my mother today?"
-        if (content.match(/^felix should i/gi)) {
+        if (content.match(/^felix should /gi)) {
             if (Math.random()>=0.5) { 
                 message.reply('the answer I am getting from my entropy is: Yes.');
             }
